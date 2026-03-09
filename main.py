@@ -78,7 +78,7 @@ async def analyze_pitcher(data: AnalyzeRequest):
             "https://api.groq.com/openai/v1/chat/completions",
             headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
             json={
-                "model": "llama3-8b-8192",
+                "model": "llama-3.3-70b-versatile2",
                 "messages": [{"role": "user", "content": prompt}],
                 "max_tokens": 200
             }
