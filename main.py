@@ -84,11 +84,10 @@ async def analyze_pitcher(data: AnalyzeRequest):
             }
         )
 
-   result = response.json()
-    
-    # Show the full Groq response if something goes wrong
+    result = response.json()
+
     if "choices" not in result:
         return {"error": "Groq API error", "details": result}
-    
+
     analysis = result["choices"][0]["message"]["content"]
     return {"analysis": analysis}
