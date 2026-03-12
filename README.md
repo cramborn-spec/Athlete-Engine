@@ -18,7 +18,7 @@ AI-powered coaching analysis in real time.
 |---|---|
 | Frontend | React + TypeScript (Google AI Studio) |
 | Backend | FastAPI (Python), deployed on Render |
-| Database | SQLite |
+| Database | Google Sheet |
 | AI — Performance | Google Gemini |
 | AI — Pitching Coach | Groq (LLaMA 3.3 70B) |
 
