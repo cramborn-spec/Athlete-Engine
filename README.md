@@ -1,4 +1,4 @@
-# Athlete Engine 🏋️⚾
+# Athlete Engine
 
 A performance tracking platform built for baseball pitchers. Athletes and coaches 
 can log daily recovery metrics, throwing workload, and pitch data — and receive 
